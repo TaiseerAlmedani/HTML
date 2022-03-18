@@ -1,0 +1,32 @@
+body{
+    background-color: #fc3;
+}
+h2{
+    font-size: 50px;
+}
+p {
+    font-size: 30px;
+}
+
+.primary-box{
+    border: solid 2px black;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    background-color: white;
+    color: #333;
+}
+.secondary-box{
+    border: solid 2px black;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;    
+}
+p em {
+    color: red;
+}
+em {
+    color: blue;
+}

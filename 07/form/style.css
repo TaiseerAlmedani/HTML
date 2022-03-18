@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
+    padding-top: 10%;
+}
+
+.box {
+    width: 780px;
+    height: 590px;
+    /* background: black; */
+    margin: 0 auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.box > * {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.box-image {
+    background: url('https://colorlib.com/etc/regform/colorlib-regform-3/images/bg-heading-03.jpg');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-content {
+    background: black;
+    padding: 57px 65px;
+    box-sizing: border-box;
+}
+
+.box-content h3 {
+    margin: 36px;
+    color: white;
+}
+
+.box-content input:not([type="submit"]), .box-content select {
+    width: 100%;
+    margin-bottom: 33px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.box-content select {
+    color: #ccc;
+}
+
+.box-content input::placeholder {
+    color: #ccc;
+    font-size: 16px;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.box-content input[type="submit"] {
+    background: #57b846;
+    color: white;
+    font-size: 18px;
+    padding: 0 34px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+}

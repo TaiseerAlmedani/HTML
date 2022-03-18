@@ -1,0 +1,37 @@
+body
+{
+    background-color: silver;
+}
+#main-title
+{
+    color: blue;
+    font-size: 50px;
+    border: 15px dashed red;
+}
+em
+{
+    color: orange;
+}
+.sub-title
+{
+    color: cornflowerblue;
+    font-size: 35px;
+}
+.main-paragraph
+{
+    background-color: black;
+    color: white;
+}
+img
+{
+    width: 500px;
+    height: 500px;
+}
+small
+{
+    background-color: teal;
+}
+.main-paragraph1
+{
+    font-size: 2em;
+}

@@ -1,0 +1,51 @@
+body
+{
+    background-color: darkgrey;
+}
+header
+{
+    background-color: darkslateblue;
+}
+h1
+{
+    border: 12px solid red;
+    font-size: 50px;
+    color: blue;
+}
+.sub-title
+{
+    font-size: 30px;
+    color: cornflowerblue;
+}
+.first-section
+{
+    background-color: black;
+}
+.body-pargraph
+{
+    color: #fc3;
+}
+.second-section
+{
+    background-color: black;
+}
+footer
+{
+    background-color: darkviolet;
+}
+small
+{
+    background-color: firebrick;
+}
+em
+{
+    color: orange;
+}
+#img
+{
+    height: 500px;
+    width: 500px;
+    padding: 10PX;
+    border: 1px solid red;
+    margin: 12px;
+}

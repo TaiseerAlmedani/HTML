@@ -1,0 +1,52 @@
+/* Styling Links Lecture */
+
+#styling-links {
+    background: #333;
+}
+
+#styling-links #container {
+    background: white;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+a {
+   display: inline-block;
+}
+
+/* unvisited */
+a:link {
+    color: #fc3;
+}
+
+/* visited */
+a:visited {
+    color: #fc3;
+}
+
+/* hover / mouse-over */
+a:hover {
+    color: green;
+}
+
+/* active / mouse-down */
+a:active {
+    color: black;
+}
+
+a#link-1:link {
+    background: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a#link-1:hover {
+    background: #f3c;
+    color: white;
+}
+
+a#link-1:active {
+    background: #777;
+}
