@@ -10,8 +10,12 @@
     <body>
         
         <h1>Forms</h1>
-        
-        <form>
+        <button>
+            <h1>type</h1>
+            <img src="image.jpg" alt="">
+        </button>
+        <a href="10_10-span-div.html" target="_blank">click</a>
+        <form autocomplete="off" novalidate target="_blank">
         
             <fieldset>
             
@@ -19,15 +23,16 @@
                  </label>
                 <label for="name">Your name :</label>
                 <input type="text" id="name" placeholder="Enter your name">
-           
+                 <br>
+                 <input type="text" placeholder="code offer " autofocus>
                 <br>
                 <label>Your email:
-                <input type="email" placeholder="your@email.com">
+                <input type="email" placeholder="your@email.com" >
                 </label>
                 <br>
                 
                 <label>Password:</label>
-                <input type="password">
+                <input type="password" required>
 
                 
                 <br><br>
@@ -61,13 +66,15 @@
             
                 <br><br>
                 
-                <input type="submit" value="Enter">
+                <input type="submit" value="Enter" >
+                <input type="submit" value="Enter without validate" formnovalidate>
                 <input type="reset">
+                <input type="image" src="image.jpg" width="20px" height="20px">
                 
             </fieldset>
         
         </form>
-
+        <input type="text" value="" form="">
     </body>
     
 </html>
